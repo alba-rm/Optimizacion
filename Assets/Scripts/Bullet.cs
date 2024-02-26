@@ -14,7 +14,7 @@ public class Bullet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += transform.forward * bulletSpeed * Time.deltaTime;
+       transform.position += transform.forward * bulletSpeed * Time.deltaTime;
     }
 
     void OnCollisionEnter(Collision collision) 
