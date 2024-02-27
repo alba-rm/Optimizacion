@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemigo : MonoBehaviour
 {
-    [SerializeField] float enemySpeed = 5;
+    [SerializeField] float enemySpeed = 15;
     void Update()
     {
        transform.position += transform.forward * enemySpeed * Time.deltaTime;

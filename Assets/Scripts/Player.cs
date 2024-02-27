@@ -9,10 +9,6 @@ public class Player : MonoBehaviour
     public float speedMove = 5;
     public float hInput;
     
-
-
-    
-
     void Update()
     {
         if(transform.position.x < -60)
